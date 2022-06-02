@@ -1,19 +1,19 @@
 
 spring:
-    application:
-        name: "SpringBoot Rest API"
-    profiles:
-      active:
-        - dev
+  application:
+    name: "SpringBoot Rest API"
+  profiles:
+    active:
+      - local
 
 server:
   servlet:
-      context-path: "/"
+    context-path: "/"
   port: 8080
 
 logging: 
     level: 
-        ROOT: DEBUG
+      ROOT: DEBUG
 
 management:
   endpoints:
